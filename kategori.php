@@ -1,0 +1,19 @@
+<div class="sag3">
+  <h2>Kategoriler</h2>
+  <ul>
+<?php
+$kategori = $db->prepare("select * from kategoriler ");
+$kategori->execute(array());
+$v = $kategori->fetchALL(PDO::FETCH_ASSOC);
+$x = $kategori->rowCount();
+if($x){
+  foreach ($v as $m) {
+    echo '<li><a href="?do=kategori&id='.$m["kategori_id"].'">'.$m["kategori_adi"].'</a></li>';
+  }
+}
+else {
+  echo '<div class="hata">şuan hiç kategori bulunmuyor </div>';
+}
+ ?>
+  </ul>
+</div>

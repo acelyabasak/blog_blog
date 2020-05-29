@@ -1,0 +1,116 @@
+.admin-header{
+  border: 1px solid #f2f4f4;
+  height: 150px;
+  background: #dedede;
+}
+.admin-header h2{
+  margin: 65px 0px 0px 30px;
+  font-size: 23px;
+}
+.uye{
+  margin: 32px;
+  font-size: 20px;
+  color: black;
+}
+.admin-icerik{
+  margin-top: 20px;
+}
+.admin-menu{
+  border: 1px solid #f2f4f4;
+  width: 300px;
+  min-height: 600px;
+  background: #dedede;
+}
+.admin-menu ul li{
+  border: 1px solid #f2f4f4;
+  padding: 10px;
+  font-size: 20px;
+}
+.admin-menu ul li:hover{
+  background: darkgrey;
+}
+.admin-icerik-sag{
+  position: relative;
+  left: 315px;
+  top: -600px;
+  border: 1px solid #f2f4f4;
+  width: 75%;
+  min-height: 200px;
+  background: #dedede;
+  margin-bottom: 20px;
+}
+.admin-icerik-sag h2{
+  border: 1px solid #f2f4f4;
+  padding: 10px;
+  margin: 2px;
+  font-size: 21px;
+  background: #dedede;
+}
+.konular th{
+  border: 1px solid #f2f4f4;
+  padding: 10px;
+  font-size: 19px;
+  background: #dedeff;
+}
+.konular{
+  margin: 5px;
+  background: #dedede;
+}
+.konular td{
+  border: 1px solid #f2f4f4;
+  padding: 10px;
+  font-size: 17px;
+}
+.konular tbody:hover{
+  background: darkgrey;
+}
+.konular ul li input{
+  width: 400px;
+  height: 30px;
+  font-size: 18px;
+}
+.konular ul li select{
+  width: 150px;
+  height: 32px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.konular ul li textarea{
+  width: 650px;
+  height: 250px;
+  font-size: 18px;
+}
+.konular ul li {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2px;
+}
+.konular ul li button{
+  border: 1px solid #f2f4f4;
+  width: 130px;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 15px;
+  background: lightpink;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.anasayfa{
+  border: 1px solid #f2f4f4;
+  width: 250px;
+  padding: 5px;
+  margin: 10px;
+  height: 100px;
+  background: #eee;
+  float: left;
+}
+.anasayfa h3{
+  border: 1px solid #f2f4f4;
+  padding: 5px;
+  background: #dedede;
+  font-size: 19px;
+}
+.anasayfa p{
+  padding: 5px;
+  font-size: 17px;
+}
